@@ -1,6 +1,6 @@
 {
 	"name": "get-package-json-file",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Read a package json file",
 	"license": "MIT",
 	"repository": "ahmadawais/get-package-json-file",
