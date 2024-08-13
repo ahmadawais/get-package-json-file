@@ -45,9 +45,30 @@ All notable changes in this project's [released versions](../../releases) are do
 <img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/light-hr.png#gh-light-mode-only" alt="hr" />
 <br>
 
+### RELEASE: [2.0.0](https://github.com/ahmadawais/get-package-json/compare/1.0.1...2.0.0)
+
+![🐛 FIX:](https://img.shields.io/badge/🐛-FIX-gray.svg?colorA=BC4C00&colorB=BC4C00&style=for-the-badge)
+
+> 🐛 Path [`4d88265`](https://github.com/ahmadawais/get-package-json/commit/4d882656e6e609c5872953f37474c6c1e493853e)
+
+![📖 DOC:](https://img.shields.io/badge/📖-DOCS-gray.svg?colorA=1169DA&colorB=1169DA&style=for-the-badge)
+
+> 📖 Usage [`f8ebfdc`](https://github.com/ahmadawais/get-package-json/commit/f8ebfdc6e097f9308c9501ee49dfa95400a71292)
+
+> 📖 Usage [`1d228cb`](https://github.com/ahmadawais/get-package-json/commit/1d228cb5b32aaa5de6e0f1db39c8b30abebfaca6)
+
+<br>
+
+<br>
+<img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/dark-hr.png#gh-dark-mode-only" alt="hr" />
+<img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/light-hr.png#gh-light-mode-only" alt="hr" />
+<br>
+
 ### RELEASE: [1.0.1](https://github.com/ahmadawais/get-package-json/compare/1.0.0...1.0.1)
 
 ![📖 DOC:](https://img.shields.io/badge/📖-DOCS-gray.svg?colorA=1169DA&colorB=1169DA&style=for-the-badge)
+
+> 📖 Changelog [`d451e05`](https://github.com/ahmadawais/get-package-json/commit/d451e05c469d9fca79b3e2cc2589b1049d98a497)
 
 > 📖 Installs [`6025287`](https://github.com/ahmadawais/get-package-json/commit/60252876cb0bb31e629d9a83bf15fcbb5fdd2c09)
 
