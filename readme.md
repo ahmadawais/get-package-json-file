@@ -12,7 +12,11 @@
 ## Install
 
 ```sh
+pnpm install get-package-json-file
+# OR
 npm install get-package-json-file
+# OR
+yarn add get-package-json-file
 ```
 
 <br>
