@@ -35,6 +35,8 @@ const getPackageJson = require('get-package-json-file');
 
 // Get the package.json of the current working directory.
 const pkgJson = await getPackageJson();
+
+// This is same as.
 const pkgJson = await getPackageJson(`./package.json`);
 
 // Get the package.json of a specific directory e.g. one level up.
