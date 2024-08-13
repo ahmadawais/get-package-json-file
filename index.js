@@ -10,11 +10,23 @@ import { readFile } from 'fs/promises';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+export async function getPackageJson(customPath = './package.json') {
+    // Get the caller's file path
+    const callerFile = new Error().stack.split('\n')[2].match(/\((.*):\d+:\d+\)/)[1];
 
-export async function getPackageJson(customPath = __dirname) {
-    const packagePath = join(customPath, 'package.json');
-    const packageJson = JSON.parse(await readFile(packagePath, 'utf8'));
-    return packageJson;
+    // Convert file URL to path if necessary
+    const callerPath = callerFile.startsWith('file:')
+        ? fileURLToPath(callerFile)
+        : callerFile;
+
+    const callerDir = dirname(callerPath);
+
+    const packagePath = join(callerDir, customPath);
+    try {
+        const packageJson = JSON.parse(await readFile(packagePath, 'utf8'));
+        return packageJson;
+    } catch (error) {
+        console.error(`Error reading package.json from ${packagePath}:`, error);
+        throw error;
+    }
 }
