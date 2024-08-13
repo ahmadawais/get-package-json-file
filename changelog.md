@@ -45,6 +45,19 @@ All notable changes in this project's [released versions](../../releases) are do
 <img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/light-hr.png#gh-light-mode-only" alt="hr" />
 <br>
 
+### RELEASE: [1.0.1](https://github.com/ahmadawais/get-package-json/compare/1.0.0...1.0.1)
+
+![📖 DOC:](https://img.shields.io/badge/📖-DOCS-gray.svg?colorA=1169DA&colorB=1169DA&style=for-the-badge)
+
+> 📖 Installs [`6025287`](https://github.com/ahmadawais/get-package-json/commit/60252876cb0bb31e629d9a83bf15fcbb5fdd2c09)
+
+<br>
+
+<br>
+<img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/dark-hr.png#gh-dark-mode-only" alt="hr" />
+<img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/light-hr.png#gh-light-mode-only" alt="hr" />
+<br>
+
 ### RELEASE: 1.0.0
 
 ![📦 NEW:](https://img.shields.io/badge/📦-NEW-gray.svg?colorA=238635&colorB=238635&style=for-the-badge)
@@ -52,6 +65,10 @@ All notable changes in this project's [released versions](../../releases) are do
 > 📦 First commit [`74658ed`](https://github.com/ahmadawais/get-package-json/commit/74658edce4bfd3279b755bd89854f29c8a127b76)
 
 > 📦 Name [`c40b854`](https://github.com/ahmadawais/get-package-json/commit/c40b85492d12fc028fee49b611551331feb89d09)
+
+![📖 DOC:](https://img.shields.io/badge/📖-DOCS-gray.svg?colorA=1169DA&colorB=1169DA&style=for-the-badge)
+
+> 📖 Changelog [`234a782`](https://github.com/ahmadawais/get-package-json/commit/234a782e3e430ef6f25a41e3cc74b41172e79946)
 
 <br>
 
