@@ -1,9 +1,10 @@
 {
-	"name": "get-package-json",
+	"name": "get-package-json-file",
 	"version": "0.0.1",
 	"description": "Read a package json file",
 	"license": "MIT",
-	"repository": "ahmadawais/get-package-json",
+	"repository": "ahmadawais/get-package-json-file",
+	"type": "module",
 	"author": {
 		"name": "Ahmad Awais",
 		"email": "me@AhmadAwais.com",
@@ -14,7 +15,7 @@
 		"index.js"
 	],
 	"keywords": [
-		"get-package-json",
+		"get-package-json-file",
 		"Ahmad Awais",
 		"ahmadawais"
 	],

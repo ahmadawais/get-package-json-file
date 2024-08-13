@@ -1,6 +1,6 @@
-# get-package-json
+# get-package-json-file
 
-[![DOWNLOADS](https://img.shields.io/npm/dt/get-package-json?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/get-package-json) [![Node.js CLI](https://img.shields.io/badge/-NodeCLI.com-gray.svg?colorB=6A788D&style=flat)](https://NodeCLI.com/?utm_source=FOSS) [![Learn VSCode](https://img.shields.io/badge/-VSCODE.pro-gray.svg?colorB=6A788D&style=flat)](https://VSCode.pro/?utm_source=FOSS) [![Sponsor](https://img.shields.io/badge/-Sponsor-gray.svg?colorB=6A788D&style=flat)](https://github.com/ahmadawais/sponsor?utm_source=FOSS)
+[![DOWNLOADS](https://img.shields.io/npm/dt/get-package-json-file?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/get-package-json-file) [![Node.js CLI](https://img.shields.io/badge/-NodeCLI.com-gray.svg?colorB=6A788D&style=flat)](https://NodeCLI.com/?utm_source=FOSS) [![Learn VSCode](https://img.shields.io/badge/-VSCODE.pro-gray.svg?colorB=6A788D&style=flat)](https://VSCode.pro/?utm_source=FOSS) [![Sponsor](https://img.shields.io/badge/-Sponsor-gray.svg?colorB=6A788D&style=flat)](https://github.com/ahmadawais/sponsor?utm_source=FOSS)
 [![Follow @MrAhmadAwais on Twitter](https://img.shields.io/badge/FOLLOW%20@MRAHMADAWAIS%20%E2%86%92-gray.svg?colorA=6A788D&colorB=6A788D&style=flat)](https://twitter.com/mrahmadawais/)
 
 > Read a package json file
@@ -12,7 +12,7 @@
 ## Install
 
 ```sh
-npm install get-package-json
+npm install get-package-json-file
 ```
 
 <br>
@@ -23,10 +23,17 @@ npm install get-package-json
 
 ```js
 // Use ESM `import` statement syntax.
-import getPackageJson from 'get-package-json';
+import getPackageJson from 'get-package-json-file';
 
 // OR use CommonJS `require` syntax.
-const getPackageJson = require('get-package-json');
+const getPackageJson = require('get-package-json-file');
+
+
+// Get the package.json of the current working directory.
+const pkgJson = await getPackageJson();
+
+// Get the package.json of a specific directory e.g. one level up.
+const pkgJson = await getPackageJson(`${__dirname}/../`);
 ```
 
 <br>
