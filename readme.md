@@ -35,12 +35,33 @@ const getPackageJson = require('get-package-json-file');
 
 // Get the package.json of the current working directory.
 const pkgJson = await getPackageJson();
+const pkgJson = await getPackageJson(`./package.json`);
 
 // Get the package.json of a specific directory e.g. one level up.
-const pkgJson = await getPackageJson(`${__dirname}/../`);
+const pkgJson = await getPackageJson(`./../package.json`);
 ```
 
 <br>
+
+
+<br />
+
+[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/options.png)](./../../)
+
+## API
+
+### getPackageJson(input)
+
+#### ❯ input
+
+Path to the package.json file as a string.
+
+Type: `string`<br>
+Default: `./package.json` (optional)
+
+You can specify the options below.
+
+
 
 [![📝](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/log.png)](changelog.md)
 
